@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* footer */
+#footer ul{
+	overflow: hidden;
+}
+#footer ul li{
+	float: left;
+	
+}
+footer{
+	background-color: #39454B;
+}
+#footer{
+	padding:50px 50px;
+}
+#footer>p{
+	font-size: 1.3em;
+	color: rgba(185, 186, 187, 0.5);
+	text-align: center;
+}
+#footer>p a{
+	color:inherit;
+	text-decoration: underline;
+}
+#footer>p a:hover{
+	color:#b9babb;
+}
+#footer ul li{
+	margin-left:20px;
+}
+.f-p{
+	text-align: center;
+	padding-top:30px;
+}
+#footer ul{
+	width: 297px;
+	margin:0 auto;
+	margin-top:40px;
+}

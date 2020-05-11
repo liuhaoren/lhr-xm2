@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* MyWork */
+#MyWork{
+	padding: 7em 0;
+	text-align: center;
+}
+#MyWork h1{
+	font-size: 3.25em;
+}
+#MyWork p{
+	font-size: 1.4em;
+	width: 47em;
+	margin:0 auto;
+	font-weight: lighter;
+	line-height: 1.9em;
+}
+#MyWork div img,#MyWork div a{
+	display: block;
+}
+#MyWork .main-img{
+	margin:0 auto;
+	width: 55em;
+	padding-top: 3em;
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(1){
+	background: url("img/overlay.png"), url("img/a_data/01.jpg");
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(1):hover{
+	background:url("img/a_data/01.jpg");
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(2){
+	background: url("img/overlay.png"), url("img/a_data/02.jpg");
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(2):hover{
+	background:url("img/a_data/02.jpg");
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(3){
+	background: url("img/overlay.png"), url("img/a_data/03.jpg");
+}
+#MyWork .main-img div:nth-of-type(1) a:nth-of-type(3):hover{
+	background:url("img/a_data/03.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(1){
+	background: url("img/overlay.png"), url("img/a_data/04.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(1):hover{
+	background: url("img/a_data/04.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(2){
+	background: url("img/overlay.png"), url("img/a_data/05.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(2):hover{
+	background: url("img/a_data/05.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(3){
+	background: url("img/overlay.png"), url("img/a_data/06.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(3):hover{
+	background: url("img/a_data/06.jpg");
+}
+#MyWork .main-img div:nth-of-type(2) a:nth-of-type(3),#MyWork .main-img div:nth-of-type(2) a:nth-of-type(2),#MyWork .main-img div:nth-of-type(2) a:nth-of-type(1),#MyWork .main-img div:nth-of-type(1) a:nth-of-type(3),#MyWork .main-img div:nth-of-type(1) a:nth-of-type(2),#MyWork .main-img div:nth-of-type(1) a:nth-of-type(1){
+	width:27.5em;
+	height:17.25em;
+}
